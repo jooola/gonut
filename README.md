@@ -1,27 +1,19 @@
-[![GoDoc](https://godoc.org/github.com/robbiet480/go.nut?status.svg)](https://godoc.org/github.com/robbiet480/go.nut)
+# gonut
 
-# go.nut
-go.nut is a Golang library for interacting with [NUT (Network UPS Tools)](https://networkupstools.org/)
+gonut is a Golang library for interacting with [NUT (Network UPS Tools)](https://networkupstools.org/)
+
+[![GoDoc](https://godoc.org/github.com/jooola/gonut?status.svg)](https://godoc.org/github.com/jooola/gonut)
 
 # Getting started
-```
-import "github.com/robbiet480/go.nut"
-```
 
-Check out the examples in [`example_test.go`](example_test.go). For full documentation, see the [Godocs](https://godoc.org/github.com/robbiet480/go.nut).
+```
+import "github.com/jooola/gonut"
+```
 
 # Other resources
-* [Network protocol information](http://networkupstools.org/docs/developer-guide.chunked/ar01s09.html)
 
-# Contributing
-
-1. [Fork it](https://github.com/robbiet480/go.nut)
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Make sure `golint` and `go vet` run successfully.
-4. `go fmt` your code!
-5. Commit your changes (`git commit -am "Add some feature"`)
-6. Push to the branch (`git push origin my-new-feature`)
-7. Create a new Pull Request
+- [Network protocol information](http://networkupstools.org/docs/developer-guide.chunked/ar01s09.html)
 
 # License
+
 [MIT](LICENSE)
